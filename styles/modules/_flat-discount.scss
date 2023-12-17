@@ -1,0 +1,197 @@
+.flat-discount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: calc(100vw - 95vw);
+    background: #EDF5F7;
+    padding-top: 132px;
+    padding-bottom: 131px;
+}
+.flat-discount-semi-heading {
+    color: #5C8692;
+    font-family: Manrope;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 154.5%; /* 23.175px */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 9px;
+}
+.flat-discount-heading {
+    color: #141414;
+    font-family: Playfair Display;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 58.5px */
+    letter-spacing: -0.45px;
+    max-width: 435px;
+    margin-bottom: 14px;
+}
+.flat-discount-txt {
+    color: #555;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%; /* 31.5px */
+    max-width: 534px;
+    margin-bottom: 37px;
+}
+.flat-discount-get-flat {
+    display: flex;
+}
+.flat-discount-get-flat-white-box{
+    display: inline-flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    background: #FFF;
+    height: 145px;
+    padding-top: 18px;
+}
+.flat-discount-get-flat-contact-us {
+    column-gap: 19px;
+    display: flex;
+}
+.flat-discount-get-flat-contact-us:first-child{
+    margin-bottom: 18px;
+}
+.flat-discount-get-flat-contact-us-txt {
+    color: #141414;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%; /* 21px */
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+}
+.flat-discount-get-flat-black-box{
+    display: flex;
+    width: 99px;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    background: #1E2C30;
+    height: 145px;
+    cursor: pointer;
+    width: 165px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.flat-discount-get-flat-contact-us-adress {
+    color: #141414;
+    font-family: Manrope;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+.flat-discount-get-flat-contact-us-get-flat {
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 175%; /* 26.25px */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+}
+.flat-discount-get-flat-contact-us-get-flat::before{
+    content: "";
+    width: 5px;
+    height: 1.5px;
+    background: #FFF;
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    transform: translateY(-50%);
+}
+.flat-discount-get-flat-contact-us-get-flat::after{
+    content: "";
+    width: 5px;
+    height: 1.5px;
+    background: #FFF;
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    transform: translateY(-50%);
+}
+.flat-discount-get-flat-contact-us-discount {
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 175%; /* 31.5px */
+    letter-spacing: 0.36px;
+    cursor: pointer;
+}
+.flat-discount-form {
+    background: #FFF;
+    box-shadow: 0px 20px 40px 0px rgba(42, 68, 75, 0.13);
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    padding: 66px 75px;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+}
+.flat-discount-form-input {
+    display: flex;
+    border: 1px solid #5C8692;
+    background: #FFF;
+    max-width: 400px;
+    height: 65px;
+    color: #555;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+    padding-left: 15px;
+    width: calc(100vw - 78vw);
+}
+.flat-discount-form-textarea {
+    border: 1px solid #5C8692;
+    background: #FFF;
+    width: calc(100vw - 79vw);
+    height: 136px;
+    flex-shrink: 0;
+    resize: none;
+    overflow: hidden;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+    padding-top: 21px;
+    padding-left: 15px;
+}
+.flat-discount-form-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 125%; /* 17.5px */
+    letter-spacing: 1.68px;
+    text-transform: uppercase;
+    display: flex;
+    padding: 23px;
+    width: calc(100vw - 79vw);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #5C8692;
+}

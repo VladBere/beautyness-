@@ -1,0 +1,93 @@
+.rewiews-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #EDF5F7;
+    padding-top: 147px;
+    padding-bottom: 147px;
+}
+.rewiews-semi_heading {
+    color: #5C8692;
+    font-family: Manrope;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 154.5%; /* 23.175px */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.rewiews-heading {
+    color: #141414;
+    font-family: Playfair Display;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 58.5px */
+    letter-spacing: -0.45px;
+    margin-bottom: 40px;
+}
+.rewiews{
+    display: flex;
+    column-gap: 36px;
+}
+.rewiews-card {
+    display: flex;
+    flex-direction: column;
+    height: 360px;
+    max-width: 582px;
+}
+.rewiews-cerd:first-child{
+    margin: 44px 44px 44px 49px;
+}
+.rewiews-card-bottom{
+    display: flex;
+    height: 125px;
+    max-width: 582px;
+    background: #1E2C30;
+    justify-content: space-around;
+    align-items: center;
+}
+.rewiews-text-box{
+    display: flex;
+    max-width: 582px;
+    padding: 44px 44px 44px 49px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    background: #FFF;
+}
+.rewiews-text {
+    color: #141414;
+    font-family: Manrope;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 34.2px */
+}
+.rewiews-customer-img {
+    width: 78px;
+    height: 78px;
+    border: 2px #FFF solid;
+}
+.customer-profile{
+    column-gap: 20px;
+}
+.rewiews-customer-name {
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 32px */
+    letter-spacing: -0.2px;
+}
+.rewiews-customer-location {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 22.4px */
+    letter-spacing: 0.42px;
+}

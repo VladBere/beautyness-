@@ -1,0 +1,91 @@
+.value {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    padding-bottom: 129px;
+
+    &__semi-heading {
+        color: #5C8692;
+        text-align: center;
+        font-family: Manrope;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 154.5%; /* 23.175px */
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+    }
+
+
+    &__heading {
+        color: #141414;
+        text-align: center;
+        font-family: Playfair Display;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%; /* 58.5px */
+        letter-spacing: -0.45px;
+        margin-bottom: 45px;
+    }
+
+}
+
+.parts {
+
+
+    &__value-part {
+        display: flex;
+        margin-bottom: 62px;
+        position: relative;
+        &::after{
+            content: "";
+            position: absolute;
+            width: 620px;
+            height: 1px;
+            background: #D3D3D3;
+            bottom: -23%;
+        }
+    }
+}
+.value-part {
+
+
+    &__txt {
+        max-width: 458px;
+    }
+
+    &__img{
+        width: 100px;
+        height: 100px;  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px black solid;
+        background-color: #F2FCFF;
+        margin-right: 32px;
+    }
+}
+.txt {
+
+
+    &__value-heading {
+        color: #141414;
+        font-family: Playfair Display;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 26.4px */
+    }
+
+
+    &__value-txt {
+        color: #555;
+        font-family: Manrope;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 175%; /* 31.5px */
+    }
+}

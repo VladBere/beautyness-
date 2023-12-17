@@ -1,0 +1,10 @@
+@mixin header($color) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $color;
+}
+@mixin header-blog($hcolor: white, $hsize: 20px){
+    color: $hcolor;
+    font-size: $hsize;
+}
